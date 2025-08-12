@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"kJXpjgSRq8oiW54srydINM/ahHoSNZW+zIm/pbdRBGE="},"public":{"type":"Buffer","data":"wjRtmp7dtCWwSsbcYxiOjhtK+17sPHib5MkF/Vshk3A="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"4MY1gme7P/uLr7ygUgjo6PWQad5Hh4XG+E0JwSrzLVE="},"public":{"type":"Buffer","data":"Y85RpwxSYL4WDodP6nZBOgUw8Afu8aYhwgkgizVImkc="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"4KOX0Oi0LqpFYGP8dO/d/syiTT1JyOavRN7bAIGpM2A="},"public":{"type":"Buffer","data":"O9KMvBenKzyw3EoUN7a3/jERzAnE8gMOyi7NUkYaPk8="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"sNtvzmoHj9etyYITs11bIpEqjvmAiA5R2Lvmo4SMFkg="},"public":{"type":"Buffer","data":"6ekGiUNQaM7AWOsTrkgGvWuocOnZDljPrj7IJRXDNEg="}},"signature":{"type":"Buffer","data":"kJd8U3aqNAj9mjjdofPtgHWX5ooCZGR5y1h2YQul4ng1GKd2p1M3LMuFZb0xGbfXqYQrsZF1rt/t8q2vAEeagQ=="},"keyId":1},"registrationId":43,"advSecretKey":"SK1LiPXecwYg2EpFF3l5aDGRjl9zfXsium8V33/TQk0=","processedHistoryMessages":[{"key":{"remoteJid":"2347084654918@s.whatsapp.net","fromMe":true,"id":"3AA96C740616874B8C2A"},"messageTimestamp":1755027888}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"ShGhggjiSPGzy-OkLb_kJg","phoneId":"5406263f-89a7-4847-90f4-2fd20b082a4e","identityId":{"type":"Buffer","data":"6qD6bLEA+jGieoi45deDVpU1pXw="},"registered":true,"backupToken":{"type":"Buffer","data":"dUSuWKvRnbr2VzN9rYEOl7xNDe4="},"registration":{},"pairingCode":"CYRILDEV","me":{"id":"2347084654918:5@s.whatsapp.net","lid":"76064474812466:5@lid","name":"Yo🥲🙂"},"account":{"details":"CIONnPMGEKKz7sQGGAEgACgA","accountSignatureKey":"ar8+ty9FcbivFDvAyiGj0ABJcI0fb48pPXw/uLFcLlE=","accountSignature":"/G1W1RXBHUPb/qel+VDkgXtXTVpoI5myHASLLxN9REWL8h7NQnBK4M5Zec7xObf87FPJ4YVX/22p4UvB2i5ziA==","deviceSignature":"J0Z9ql/Gz1ZCoOs3OrbcGeXf1fXPBRChy3jMyg+hfPdbPNiPdHs1sqpkd4fKsQh4gactFH8TK0LGCdSEreaJgQ=="},"signalIdentities":[{"identifier":{"name":"2347084654918:5@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BWq/PrcvRXG4rxQ7wMoho9AASXCNH2+PKT18P7ixXC5R"}}],"platform":"iphone","routingInfo":{"type":"Buffer","data":"CA0IEg=="},"lastAccountSyncTimestamp":1755027883,"lastPropHash":"nm3Bb","myAppStateKeyId":"AAAAAEgH","preKeys":{"private":{"type":"Buffer","data":"uO1OQKZXtQhUwPHCLouq/85eqUoMFnhfyHlI+lS7S2w="},"public":{"type":"Buffer","data":"K64hpBhjlu0jzeiKfhLNcFU8Ugdh1m6/0g+WAy2W2yc="}},"senderKeys":{},"timestamp":"2025-08-12T19:44:50.254Z"}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -51,7 +51,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "2347084654918"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
